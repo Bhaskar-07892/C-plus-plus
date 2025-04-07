@@ -1,0 +1,185 @@
+
+* WAP to display your name in C++.
+
+#include <iostream>
+using namespace std;
+int main()
+{
+    cout << "Mohit Dhami";
+    return 0;
+}
+
+
+
+
+* WAP to demonstrate the use of C++ Constants.
+
+#include <iostream>
+using namespace std;
+int main()
+{
+    const int x = 10;
+    cout << x;
+}
+
+
+
+* WAP to create, assign and display Variables.
+
+#include <iostream>
+using namespace std;
+int main()
+{
+    int myNum = 15;
+    float Num = 18.89;
+    
+    cout <<"I am " << myNum << "year old";
+    return 0;
+}
+
+
+
+* WAP to use numeric Data Type in C++.
+
+#include <iostream>
+using namespace std;
+int main()
+{
+    int x = 15;
+    cout << x <<"\n";
+    
+    double y = 15.938763;
+    cout << y <<"\n";
+    
+    float z = 15.897;
+    cout << z;
+}
+
+
+
+* WAP to use Boolean Data Type in C++.
+
+#include <iostream>
+using namespace std;
+int main()
+{
+    bool MynameisMohit = true;
+    bool Fishisateristorialanimal = false;
+    
+    cout << MynameisMohit <<"\n";
+    cout << Fishisateristorialanimal <<"\n";
+}
+
+
+
+* WAP to use character Data Type in C++.
+
+#include <iostream>
+using namespace std;
+int main()
+{
+    char x = 'A';
+    cout << x <<"\n";
+    
+    char y = 'B';
+    cout << y <<"\n";
+}
+
+
+
+* WAP to use string Data Type in C++.
+
+#include <iostream>
+#include <string>
+using namespace std;
+
+int main()
+{
+    string name = "My name is Mohit Dhami";
+    cout << name << "\n";
+    
+    string mood = "I am in good mood";
+    cout << mood;
+}
+
+
+
+
+* WAP to use all arithmetic Operators.
+
+#include <iostream>
+using namespace std;
+int main()
+{
+     int x =20 ;
+     int y = 5;
+     
+     // Addition
+     cout  << x+y << "\n";
+     
+     // Substraction
+     cout << x-y << "\n";
+     
+     // Multiplication
+     cout << x*y << "\n";
+     
+     // Division
+     cout << x/y << "\n";
+     
+     // Increment
+     cout << ++x << "\n";
+     
+     // Decrement 
+     cout << --y << "\n";
+}
+
+
+
+
+* WAP to use all relational Operators.
+
+#include <iostream>
+using namespace std;
+
+int main()
+{
+    int x = 10, y = 15 , z = 10 , a = 15;
+    
+    //Equals to
+    cout << (x == z) <<"\n";
+    
+    // Not Equals to
+    cout << (x != y) << "\n";
+    
+    // Greater than
+    cout << (x > z) << "\n";
+    
+    // Less than
+    cout << (x < y) << "\n";
+    
+    // Greater than equal to
+    cout << (x <= z) << "\n";
+}
+
+
+
+
+* WAP to use all logical Operators.
+
+#include <iostream>
+using namespace std;
+
+int main()
+{
+    int x = 15;
+    int y = 25;
+    
+    // AND Operator
+    cout << (x > 10 && y < 30) << "\n";
+    
+    // OR Operator
+    cout << (x <= 15 || y < 20) << "\n";
+    
+    // NOT Operator
+    cout << !(x > 10 && y < 15) << "\n";
+}

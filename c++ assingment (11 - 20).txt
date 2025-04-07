@@ -1,0 +1,244 @@
+* WAP to use Strings in c++.
+
+#include <iostream>
+#include <string>
+using namespace std;
+
+int main()
+{
+    string name = "My name is Mohit Dhami";
+    cout << name << "\n";
+}
+
+
+
+
+
+* WAP to receive User Input
+
+#include <iostream>
+#include <string>
+using namespace std;
+
+int main()
+{
+    string firstname;
+    cout << "Type your firstname :" ;
+    cin >> firstname ;
+    cout << "Your name is" << firstname ;
+}
+
+
+
+
+* WAP to use commonly used Math functions.
+
+#include <iostream>
+using namespace std;
+
+int main()
+{
+    
+    // for max
+    cout << max(10,20);
+
+    // for min
+    cout << min(10,20);
+}
+
+
+
+
+* WAP to use C++ Boolean data types.
+
+#include <iostream>
+using namespace std;
+
+int main()
+{
+    bool MynameisMohit = true;
+    bool Iamagirl = false;
+    
+    cout << MynameisMohit << "\n";
+    cout << Iamagirl << "\n";
+}
+
+
+
+
+* WAP to use Decision statement.
+
+
+ 					IF STATEMENT
+
+#include <iostream>
+using namespace std;
+
+int main()
+{
+    // If Statement
+    int x = 10;
+    int y = 15;
+    
+    if (x < y)
+    cout << "y is greater then x" ;
+}
+
+
+					IF ELSE STATEMENT
+
+#include <iostream>
+using namespace std;
+
+int main()
+{
+   int x = 10;
+   int y = 15;
+   
+   if (x > y)
+   {
+   cout << "x is greater than y.\n";
+   } else
+   {
+       cout << "y is greater than x";
+   }
+}
+
+
+
+
+
+
+* WAP to demonstrate C++ Loops.
+
+#include <iostream>
+using namespace std;
+
+int main()
+{
+    int i = 0;
+    while (i < 5)
+    {
+        cout << i << "\n";
+        i++;
+    }
+}
+
+
+
+				DO WHILE LOOP
+
+#include <iostream>
+using namespace std;
+
+int main()
+{
+    int i = 0;
+    do {
+        cout << i << "\n";
+        i++ ;
+    }
+    while( i<5);
+}
+
+
+
+					FOR LOOP
+
+#include <iostream>
+using namespace std;
+
+int main()
+{
+    for (int i=0 ; i<5 ; i++)
+    {
+        cout << i << "\n";
+    }
+}
+
+
+
+
+
+* WAP to demonstrate Break statements.
+
+#include <iostream>
+using namespace std;
+
+int main()
+{
+    int day = 3;
+    switch (day)
+    {
+        case 1:
+        cout << "Sunny Day";
+        break;
+        
+        case 3:
+        cout << "Rainy Day";
+        break;
+        
+        case 5:
+        cout << "Cloudy Day";
+        break;
+        
+        default:
+        cout << "Normal Day";
+    }
+}
+
+
+
+
+* WAP to demonstrate continue statements.
+
+#include <iostream>
+using namespace std;
+
+int main()
+{
+    int i = 0;
+    while  (i<8)
+    {
+        if ( i == 4){
+        i++ ;
+        continue;
+        }
+        cout << i << "\n";
+        i++ ;
+    }
+}
+
+
+
+
+* WAP to create, assign and display Arrays.
+
+#include <iostream>
+#include <string>
+using  namespace std;
+
+int main()
+{
+    string car[5] = {"Royal Rolls" , "BMW" , "Ferrari" , "Macleran"};
+    cout << car[2] << "\n";
+    cout << car[0] << "\n";
+}
+
+
+
+
+* WAP to change array element.
+
+#include <iostream>
+#include <string>
+using  namespace std;
+
+int main()
+{
+    string car[5] = {"Royal Rolls" , "BMW" , "Ferrari" , "Macleran"};
+    cout << car[1] << "\n";
+    cout << car[0] << "\n";
+    car[2] = "Buggati";
+    cout << car[2] << "\n";
+}

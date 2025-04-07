@@ -1,0 +1,135 @@
+
+* WAP to loop through array elements.
+
+#include <iostream>
+#include <string>
+using namespace std;
+
+int main()
+{
+    string car[5] = {"Rolls Royal" , "Macleran" , "Lamborgani",
+    "BMW" , "Porsche"};
+    for (int i = 0 ; i<5 ; i++)
+    {
+        cout << car[i] << "\n";
+    }
+}
+
+
+
+
+* WAP to explain omit the array size.
+
+#include <iostream>
+#include <string>
+using namespace std;
+
+int main()
+{
+    string cars[5] = {"Rolls Royal" , "Mecleran" , "Porsche"};
+    cars[3] = "BMW";
+    cars[4] = "Ferrari";
+    for (int i=0 ; i<5 ; i++)
+    {
+        cout << cars[i] << "\n";
+    }
+}
+
+
+
+
+
+*(24)  WAP to demonstrate the use of References in c++.
+
+#include <iostream>
+#include <string>
+using namespace std;
+
+int main()
+{
+    string food = "Pizza";
+    string &meal = food;
+    
+    cout << &meal << "\n";
+    cout << food << "\n";
+    cout << meal << "\n";
+}
+
+
+
+
+
+* WAP to demonstrate the use of deference in c++.
+
+#include <iostream>
+#include <string>
+using namespace std;
+
+int main()
+{
+    string food = "Pizza";
+    string* ptr = &food;
+    
+    cout << ptr << "\n";
+    cout << *ptr << "\n";
+    cout << food << "\n";
+}
+
+
+
+
+
+* WAP to work on Memory Address.
+
+#include <iostream>
+#include <string>
+using namespace std;
+
+int main()
+{
+    string food = "Pizza";
+    
+    cout << &food << "\n";
+}
+
+
+
+
+
+* WAP to create and call Function.
+
+#include <iostream>
+using namespace std;
+
+void myfunction()
+{
+    cout << "My name is Mohit Dhami.";
+}
+int main()
+{
+    myfunction();
+}
+
+
+
+
+
+
+* WAP to explain parameters/agrument in c++ functions.
+
+#include <iostream>
+#include <string>
+using namespace std;
+
+void myfunction (string fname)
+{
+    cout << "J.O.D " << fname << "\n"; 
+}
+
+int main()
+{
+    myfunction ("JoyBoy");
+    myfunction ("Mohit");
+    myfunction ("Zoro");
+    myfunction ("Soul Pheniox");
+}
