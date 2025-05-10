@@ -5,7 +5,7 @@
 using namespace std;
 int main()
 {
-    cout << "Mohit Dhami";
+    cout << "Bhaskar Pathak";
     return 0;
 }
 
@@ -63,10 +63,10 @@ int main()
 using namespace std;
 int main()
 {
-    bool MynameisMohit = true;
+    bool MynameisBhaskar = true;
     bool Fishisateristorialanimal = false;
     
-    cout << MynameisMohit <<"\n";
+    cout << MynameisBhaskar <<"\n";
     cout << Fishisateristorialanimal <<"\n";
 }
 
@@ -95,7 +95,7 @@ using namespace std;
 
 int main()
 {
-    string name = "My name is Mohit Dhami";
+    string name = "My name is Bhaskar Pathak";
     cout << name << "\n";
     
     string mood = "I am in good mood";
