@@ -103,7 +103,7 @@ using namespace std;
 
 void myfunction()
 {
-    cout << "My name is Mohit Dhami.";
+    cout << "My name is Bhaskar Pathak .";
 }
 int main()
 {
@@ -129,7 +129,7 @@ void myfunction (string fname)
 int main()
 {
     myfunction ("JoyBoy");
-    myfunction ("Mohit");
+    myfunction ("Nuruto");
     myfunction ("Zoro");
     myfunction ("Soul Pheniox");
 }
